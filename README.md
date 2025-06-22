@@ -29,9 +29,9 @@ Wait until all services are healthy (especially `milvus-standalone` and `milvus-
 It's recommended to use a virtual environment:
 
 ```sh
-python3 -m venv venv
-source venv/bin/activate
-pip install torch torchvision pymilvus pillow
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ### 4. Insert an Image Embedding
